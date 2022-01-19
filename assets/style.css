@@ -1,0 +1,15 @@
+.clogos {
+  height: 2rem;
+}
+
+@media (max-width: 614px) {
+  ..ccontlogos {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 614px) {
+  ..ccontlogos {
+    flex-direction: column;
+  }
+}
