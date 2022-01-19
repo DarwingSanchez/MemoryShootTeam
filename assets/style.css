@@ -1,0 +1,23 @@
+.ccard1 {
+  width: 400px;
+  height: 625px;
+  margin: 0.5rem;
+  padding: 1.5rem;
+  background-color: #fff6f0;
+  text-align: justify;
+}
+
+.ccard2 {
+  width: 400px;
+  height: 625px;
+  margin: 0.5rem;
+  padding: 1.5rem;
+  background-color: #4276ad;
+  color: #fff6f0;
+  text-align: justify;
+}
+
+.cimg {
+  width: 155px;
+  height: auto;
+}
