@@ -3,13 +3,21 @@
 }
 
 @media (max-width: 614px) {
-  ..ccontlogos {
-    flex-direction: row;
+  .ccontlogos {
+    flex-direction: column;
   }
 }
 
-@media (min-width: 614px) {
-  ..ccontlogos {
+.ccontlogos {
+  background-color: #fff6f0;
+}
+
+.medios {
+  color: #7b823b;
+}
+
+@media (max-width: 614px) {
+  .clogos2 {
     flex-direction: column;
   }
 }
