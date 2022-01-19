@@ -21,3 +21,19 @@
   width: 155px;
   height: auto;
 }
+
+@media (max-width: 800px ) {
+    .ccarousel1{
+        display: none;
+    }
+}
+
+@media (min-width: 800px ) {
+    .ccarousel2{
+        display: none;
+    }
+}
+
+/*.ccarousel1
+
+.ccarousel2
