@@ -2,7 +2,7 @@
   height: 2rem;
 }
 
-@media (max-width: 614px) {
+@media (max-width: 768px) {
   .ccontlogos {
     flex-direction: column;
   }
@@ -10,13 +10,16 @@
 
 .ccontlogos {
   background-color: #fff6f0;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
 }
 
 .medios {
   color: #7b823b;
 }
 
-@media (max-width: 614px) {
+@media (max-width: 768px) {
   .clogos2 {
     flex-direction: column;
   }
