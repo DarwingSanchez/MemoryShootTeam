@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MemoryShoot</title>
+    <link rel="stylesheet" href="assets/style.css" />
+
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;400&display=swap" rel="stylesheet">
+
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="./assets/style-d.css">
+  </head>
+  <body>
+    <header>
+      <!-- Juli Nav -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-nav-custom fixed-top">
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <a class="navbar-brand me-2 ps-4" href="https://mdbgo.com/">
+              <img
+                src="assets/img/MemoryShootlogo.png"
+                height="60"
+                alt="MDB Logo"
+                loading="lazy"
+                style="margin-top: -1px"
+              />
+            </a>
+            <ul class="navbar-nav titulos-custom">
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PHOTOBOOK
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Photobook Express</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Photobook Magazine</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Albúm Photoprint</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  IMPRESIÓN
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Foto Tiras</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Collage poster</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Foto Postales</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  PHOTOREGALOS
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Mug Mágico</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Cojines</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Camisetas</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-mdb-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  CALENDARIOS
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="#">Calendario Pared</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Calendario Mesa</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Calendario Poster</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="d-flex align-items-center">
+            <button type="button" class="btn btn-light px-3 me-2">
+              Log in
+            </button>
+            <button type="button" class="btn me-3 custom-sign-up-button">Sign up</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <!-- Juli Seccion 1 -->
+    </header>
+    <main>
+      <section class="section_1">
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-mdb-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-mdb-interval="9999999">
+              <img
+                src="assets/calendarioslide2.jpg"
+                class="d-block w-100"
+                alt="T-Shirts"
+              />
+              <div class="carousel-content-container">
+                <div class="content d-flex justify-content-center ">
+                  <div
+                    class="form-1 align-self-center card text-center bg-light bg-opacity-25 "
+                  >
+                    <div class="card-header">
+                      <h5 class="titulos-custom">Diseña tu propio calendario online</h5>
+                    </div>
+                    <div class="card-body">
+                      <ul class="card-textJuli text-align">
+                        <li>1. Escoge las fotos</li>
+                        <li>2. Elige el tipo de calendario</li>
+                        <li>3. Elige el tamaño</li>
+                        <li>4. Selecciona la plantilla</li>
+                        <li>5. Personaliza el contenido</li>
+                        <li>6. Diseña tu calendario</li>
+                      </ul>
+                      <a href="#" class="btn custom-sign-up-button">Crear</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>  
+            <div class="carousel-item" data-mdb-interval="99999999">
+              <img
+                  src="assets/CamisetaSlide.jpg"
+                  class="d-block w-100"
+                  alt="Calendars"
+              />
+              <div class="carousel-content-container">
+                <div class="content d-flex justify-content-center">
+                  <div
+                    class="form-1 align-self-center card text-center bg-light bg-opacity-25 justify-content-center"
+                  >
+                    <div class="card-header">
+                      <h5>Diseña tu propia camiseta online</h5>
+                    </div>
+                    <div class="card-body">
+                      <ul class="card-textJuli text-align">
+                        <li>1. Escoge las fotos</li>
+                        <li>3. Elige el tamaño</li>
+                        <li>4. Selecciona la plantilla</li>
+                        <li>5. Personaliza el contenido</li>
+                        <li>6. Diseña tu camiseta</li>
+                      </ul>
+                      <a href="#" class="btn custom-sign-up-button">Crear</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="text-dark carousel-control-prev"
+            type="button"
+            data-mdb-target="#carouselExampleControls"
+            data-mdb-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="text-dark carousel-control-next"
+            type="button"
+            data-mdb-target="#carouselExampleControls"
+            data-mdb-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+        <section class="s-section2">
+          <!-- Inicio se Seccion 2 -->
+            <section class="s-title-seccion">
+              <h2 style="font-size: 45px;">Productos</h2>
+            </section>
+            <!-- Product main container -->
+              <!-- Product 1 -->
+              <section class="s-product-main-container">
+                <div class="s-img-div s-product1">
+                </div>
+                <div class="s-product-info-container">
+                  <h3>Impresión Fotográfica</h3>
+                  <p>Recibe en tu casa Foto tiras, collage Poster, postales</p>
+                  <section class="s-button-product-container">
+                    <button class="s-product-info-button-left s-product-button">
+                      Contactarme
+                    </button>
+                    <button class="s-product-info-button-rigth s-product-button">
+                      Información
+                    </button>
+                  </section>
+                </div>
+              </section>
+              <!-- Final product 1 -->
+              <!-- Product 2 -->
+              <section class="s-product-main-container">
+                <div class="s-img-div s-product2">
+                </div>
+                <div class="s-product-info-container">
+                  <h3>Photobook</h3>
+                  <p>Que te parece las colecciones de fotos, esas donde no se pierden ni un momento mágico. Imprime express, magazine, album.</p>
+                  <section class="s-button-product-container">
+                    <button class="s-product-info-button-left s-product-button">
+                      Contactarme
+                    </button>
+                    <button class="s-product-info-button-rigth s-product-button">
+                      Información
+                    </button>
+                  </section>
+                </div>
+              </section>
+              <!-- Final product 2 -->
+              <!-- Product 3 -->
+              <section class="s-product-main-container">
+                <div class="s-img-div s-product3">
+                </div>
+                <div class="s-product-info-container">
+                  <h3>Photo regalos</h3>
+                  <p>Dale ese gift innolvidable, mugs mágicos, cojines y camisetas</p>
+                  <section class="s-button-product-container">
+                    <button class="s-product-info-button-left s-product-button">
+                      Contactarme
+                    </button>
+                    <button class="s-product-info-button-rigth s-product-button">
+                      Información
+                    </button>
+                  </section>
+                </div>
+              </section>
+              <!-- Final product 3 -->
+              <!-- Product 3 -->
+              <section class="s-product-main-container">
+                <div class="s-img-div s-product4">
+                </div>
+                <div class="s-product-info-container">
+                  <h3>Calendario</h3>
+                  <p>Puedes estar pendiente de tus compromisos recordando el amor de tu familia y amig@. Personaliza tu calendario.</p>
+                  <section class="s-button-product-container">
+                    <button class="s-product-info-button-left s-product-button">
+                      Contactarme
+                    </button>
+                    <button class="s-product-info-button-rigth s-product-button">
+                      Información
+                    </button>
+                  </section>
+                </div>
+              </section>
+              <!-- Final product 3 -->
+            <!-- Final de Seccion 2 -->
+        </section>
+        <section class="s-section3">
+            <!-- Inicio Section 3 -->            
+              <section class="s-w-info-container">
+                  <img src="./assets/img/model2-section3.png" alt="">
+              </section>
+              <section class="s-w-steps-container">
+                <h2>Recibe tu producto en 3 pasos</h2>
+                <div class="s-w-step">
+                  <img src="./assets/img/one.png" alt="">
+                  <h3>Sube tu archivo</h3>
+                </div>
+                <div class="s-w-step">
+                  <img src="./assets/img/two.png" alt="">
+                  <h3>Elige tu diseño</h3>
+                </div>
+                <div class="s-w-step">
+                  <img src="./assets/img/three.png" alt="">
+                  <h3>Recíbelo en casa</h3>
+                </div>
+              </section>
+              <!-- TreeSection inicial -->
+              <section class="treeSection">
+                <div class="treeSection-div"></div>
+              </section>
+              <!-- TreeSection final -->
+            <!-- Final Section 3 -->
+        </section>
+        <section>
+            <!-- Carito Seccion 4 -->
+                  <!-- Carousel desk-->
+      <div
+      id="carouselExampleInterval"
+      class="ccarousel1 carousel slide"
+      data-mdb-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-mdb-interval="8000">
+          <div class="d-flex justify-content-around">
+            <div class="ccard1">
+              <img
+                src="assets/img/andrea_moreno.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center titulos-custom">
+                  Andrea Moreno
+                </h5>
+                <p class="card-text mt-2">
+                  Me encanto esta pagina, además que es facil de usar ofrece
+                  diferentes productos; por mi parte quede muy contenta con mi
+                  calendario personalizado; además la entrega fue cumplida .
+                </p>
+              </div>
+            </div>
+
+            <div class="ccard1">
+              <img
+                src="assets/img/camilo_salazar.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center titulos-custom">
+                  Camilo Salazar
+                </h5>
+                <p class="card-text mt-2">
+                  Tienen una gran variedad de productos, lo que nos permite a
+                  nosotros tener de donde escoger y asi poder regalar algo con
+                  mucho cariño y mucha originalidad.
+                </p>
+              </div>
+            </div>
+
+            <div class="ccard1">
+              <img
+                src="assets/img/antonia_correal.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro4.png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center titulos-custom">
+                  Antonia Correal
+                </h5>
+                <p class="card-text mt-2">
+                  Me gusto mucho el album, la distribución de las fotos estaba
+                  tal cual lo queria; sin embargo se presentaron algunas
+                  dificultades en la entrega del producto, por lo que tuve que
+                  esperar un poco más.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-mdb-interval="8000">
+          <div class="d-flex justify-content-around">
+            <div class="ccard2">
+              <img
+                src="assets/img/gabriel_tellez.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center titulos-custom">
+                  Gabriel Tellez
+                </h5>
+                <p class="card-text mt-2">
+                  Productos de excelente calidad, he impreso varios productos
+                  con ustedes y siempre he tenido buenos resultados.
+                </p>
+              </div>
+            </div>
+
+            <div class="ccard2">
+              <img
+                src="assets/img/paola_gomez.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center titulos-custom">
+                  Maria Castañeda
+                </h5>
+                <p class="card-text mt-2">
+                  El producto que más me gusta es el calendario, lo use para
+                  dar un regalo a mi familia y me parecio que es un regalo muy
+                  original.
+                </p>
+              </div>
+            </div>
+
+            <div class="ccard2">
+              <img
+                src="assets/img/juan_pedraza.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center titulos-custom">
+                  Juan Pedraza
+                </h5>
+                <p class="card-text mt-2">
+                  Los mugs y los llaveros quedaron hermosos! Muchas gracias
+                  por plasmar mis ideas en productos tan lindos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        data-mdb-target="#carouselExampleInterval"
+        type="button"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-mdb-target="#carouselExampleInterval"
+        type="button"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Carousel mobile-->
+    <div
+      id="carouselExampleInterval2"
+      class="ccarousel2 carousel slide"
+      data-mdb-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-mdb-interval="8000">
+          <div class="d-flex justify-content-around">
+            <div class="ccard1">
+              <img
+                src="assets/img/andrea_moreno.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center">
+                  Andrea Moreno
+                </h5>
+                <p class="card-text mt-2">
+                  Me encanto esta pagina, además que es facil de usar ofrece
+                  diferentes productos; por mi parte quede muy contenta con mi
+                  calendario personalizado; además la entrega fue cumplida .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-mdb-interval="8000">
+          <div class="d-flex justify-content-around">
+            <div class="ccard1">
+              <img
+                src="assets/img/camilo_salazar.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center">
+                  Camilo Salazar
+                </h5>
+                <p class="card-text mt-2">
+                  Tienen una gran variedad de productos, lo que nos permite a
+                  nosotros tener de donde escoger y asi poder regalar algo con
+                  mucho cariño y mucha originalidad.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-mdb-interval="8000">
+          <div class="d-flex justify-content-around">
+            <div class="ccard1">
+              <img
+                src="assets/img/antonia_correal.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro4.png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center">
+                  Antonia Correal
+                </h5>
+                <p class="card-text mt-2">
+                  Me gusto mucho el album, la distribución de las fotos estaba
+                  tal cual lo queria; sin embargo se presentaron algunas
+                  dificultades en la entrega del producto, por lo que tuve que
+                  esperar un poco más.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-mdb-interval="8000">
+          <div class="d-flex justify-content-around">
+            <div class="ccard2">
+              <img
+                src="assets/img/gabriel_tellez.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center">
+                  Gabriel Tellez
+                </h5>
+                <p class="card-text mt-2">
+                  Productos de excelente calidad, he impreso varios productos
+                  con ustedes y siempre he tenido buenos resultados.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-mdb-interval="8000">
+          <div class="d-flex justify-content-around">
+            <div class="ccard2">
+              <img
+                src="assets/img/paola_gomez.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center">
+                  Maria Castañeda
+                </h5>
+                <p class="card-text mt-2">
+                  El producto que más me gusta es el calendario, lo use para
+                  dar un regalo a mi familia y me parecio que es un regalo muy
+                  original.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item" data-mdb-interval="8000">
+          <div class="d-flex justify-content-around">
+            <div class="ccard2">
+              <img
+                src="assets/img/juan_pedraza.jfif"
+                class="card-img-top"
+                alt="Fissure in Sandstone"
+              />
+              <div class="d-flex justify-content-center mt-3">
+                <img class="cimg" src="assets/img/caro5 (1).png" alt="" />
+              </div>
+              <div
+                class="card-body d-flex justify-content-center flex-column"
+              >
+                <h5 class="card-title d-flex justify-content-center">
+                  Juan Pedraza
+                </h5>
+                <p class="card-text mt-2">
+                  Los mugs y los llaveros quedaron hermosos! Muchas gracias
+                  por plasmar mis ideas en productos tan lindos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        data-mdb-target="#carouselExampleInterval2"
+        type="button"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-mdb-target="#carouselExampleInterval2"
+        type="button"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+        </section>
+
+        
+      <section>
+        <!-- Carito Seccion 5 -->
+
+        <div
+          class="ccontlogos container d-flex justify-content-between align-items-center px-4 py-2"
+        >
+          <p class="medios navbar-brand" >Medios de Pago</p>
+
+          <div
+            class="clogos2 d-flex justify-content-between align-items-center"
+          >
+            <div>
+              <img
+                class="clogos"
+                src="assets/img/Baloto.png"
+                alt="logo_baloto"
+              />
+            </div>
+            <div>
+              <img
+                class="clogos"
+                src="assets/img/efecty.png"
+                alt="logo_efecty"
+              />
+            </div>
+            <div>
+              <img class="clogos" src="assets/img/pse.png" alt="logo_pse" />
+            </div>
+            <div>
+              <img class="clogos" src="assets/img/payu.png" alt="logo_payu" />
+            </div>
+            <div>
+              <img
+                class="clogos"
+                src="assets/img/mastercard.png"
+                alt="logo_mastercard"
+              />
+            </div>
+            <div>
+              <img class="clogos" src="assets/img/visa.png" alt="logo_visa" />
+            </div>
+            <div>
+              <img
+                class="clogos"
+                src="assets/img/american-express.png"
+                alt="logo_american"
+              />
+            </div>
+
+            <div>
+              <img
+                class="clogos"
+                src="assets/img/dinners-club.png"
+                alt="logo_dinners"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+        <!-- Duvan Footer -->
+        
+        <!-- Footer -->
+<footer class=" d-footer  text-center text-lg-start text-white" style="background-color: #4276ad;">
+  <!-- Section: Social media -->
+  <section
+  
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    <!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+      <span class="titulos-custom">Conectate con nosotros en las redes sociales</span>
+    </div>
+    <!-- Left -->
+
+    <!-- Right -->
+    <div>
+       <!-- Facebook -->
+       <a
+       class="btn btn-primary btn-floating m-1"
+       style="background-color: #3b5998;"
+       href="#!"
+       role="button"
+       ><i class="fab fa-facebook-f"></i
+     ></a>
+
+     <!-- Twitter -->
+     <a
+     class="btn btn-primary btn-floating m-1"
+     style="background-color: #55acee;"
+     href="#!"
+     role="button"
+     ><i class="fab fa-twitter"></i
+   ></a>
+
+     <!-- Google -->
+     <a
+     class="btn btn-primary btn-floating m-1"
+     style="background-color: #dd4b39;"
+     href="#!"
+     role="button"
+     ><i class="fab fa-google"></i
+   ></a>
+
+     <!-- Instagram -->
+     <a
+     class="btn btn-primary btn-floating m-1"
+     style="background-color: #ac2bac;"
+     href="#!"
+     role="button"
+     ><i class="fab fa-instagram"></i
+   ></a>
+
+   <!-- Linkedin -->
+   <a
+   class="btn btn-primary btn-floating m-1"
+   style="background-color: #0082ca;"
+   href="#!"
+   role="button"
+   ><i class="fab fa-linkedin-in"></i
+ ></a>
+
+    </div>
+    <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+      <!-- Grid row -->
+      <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img
+              src="assets/img/MemoryShoot.png"
+              height="80"
+              alt="MDB Logo"
+              loading="lazy"
+            />
+          </a>
+
+         
+
+          <p>
+            En memoryshoot encontraras el detalle que necesitas para tu ser querido, plazmando
+            recuerdos inolvidables en el objeto que desees.
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Productos
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">cojines</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">mug magico</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">camisetas</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">afiches</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            PRODUCTOS
+          </h6>
+          <p>
+            <a href="#!" class="text-reset">impresiones</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">calendarios</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">album</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset">fotografias</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            Contactos
+          </h6>
+          <p><i class="fas fa-home me-3"></i> Bogota DC, Colombia</p>
+          <p>
+            <i class="fas fa-envelope me-3"></i>
+            memorishoot@gmail.es
+          </p>
+          <p><i class="fas fa-phone me-3"></i>3202583020</p>
+          <p><i class="fas fa-print me-3"></i> +2581698</p>
+        </div>
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+  </section>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/"><h3>@MemoryShoot.com</h3></a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+    ></script>
+  </body>
+</html>
