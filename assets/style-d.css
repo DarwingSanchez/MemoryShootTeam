@@ -163,3 +163,73 @@
         margin: 0;
     }
 }
+
+
+/* INICIO Section 3 */
+.s-section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #eda0a8;
+    gap: 0px;
+    width: 100%;
+}
+.s-w-info-container{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-radius: 5px;
+}
+/* FINAL Section 3 */
+.s-w-steps-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(0, 255, 255, 0);
+    width: 500px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 40px;
+    color: white;
+}
+.s-w-steps-container h2{
+    font-size: 45px;
+}
+.s-w-step{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 7px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    width: 80%;
+   /*  box-shadow: 0px 5px 8px 1px #c2c2c2b6; */
+   color: gray;
+}
+
+.s-w-step h3{
+    margin: 0;
+}
+.treeSection{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+}
+.treeSection-div{
+    width: 900px;
+    height: 500px;
+    background-image: url('./img/treeImage.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+@media(max-width: 300px) {
+    .treeSection-div{
+        display: flex;
+        width: 300px;
+    }
+}
