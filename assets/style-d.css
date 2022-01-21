@@ -211,62 +211,24 @@
     margin: 0;
 }
 .treeSection{
-    display: grid;
-    grid-auto-flow: dense;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(5, 100px);
-    padding-top: 30px;
+    display: flex;
+    justify-content: center;
     width: 100%;
-    background-color: #FFFFFF;
+    height: fit-content;
+    background-color: white;
 }
-.treeImgBase{
-    border-radius: 6px;
-    box-shadow: 2px 3px 10px #00000052;
+.treeSection-div{
+    width: 900px;
+    height: 500px;
+    background-image: url('./img/treeImage.png');
     background-position: center;
-    background-size: cover;
-}
-.treeImgBase:hover{
-    /* margin: 0px 0px 10px 5px; */
-    transform: scale(1.1);
-}
-.treeImg1{
-    background-image: url('./img/pic1.jpeg');
-    background-color: aqua;
-    grid-area: 2 / 2 / 3 / 4;
-}
-.treeImg2{
-    background-image: url('./img/pic2.jpeg');
-    background-color: aqua;
-    grid-area: 4 / 4 / 5 / 6;
-}
-.treeImg3{
-    background-image: url('./img/pic4.jpeg');
-    background-color: aqua;
-    grid-area: 3 / 7 / 4 / 8;
-}
-.treeImg4{
-    background-image: url('./img/pic3.jpeg');
-    background-color: aqua;
-    grid-area: 5 / 9 / 6 / 11;
-}
-.treeImg5{
-    background-image: url('./img/pic5.jpeg');
-    background-color: aqua;
-    grid-area: 1 / 10 / 2 / 12;
-}
-.treeImg6{
-    background-image: url('./img/pic6.jpeg');
-    background-color: aqua;
-    grid-area: 3 / 10 / 4 / 11;
-}
-.treeImg7{
-    background-image: url('./img/pic7.jpeg');
-    background-color: aqua;
-    grid-area: 1 / 5 / 2 / 7;
-}
-.treeImg8{
-    background-image: url('./img/pic8.jpeg');
-    background-color: aqua;
-    grid-area: 5 / 1 / 6 / 3 ;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
+@media(max-width: 300px) {
+    .treeSection-div{
+        display: flex;
+        width: 300px;
+    }
+}
